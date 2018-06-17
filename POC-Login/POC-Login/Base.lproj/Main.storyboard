@@ -24,7 +24,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="9Pe-5n-i28">
-                                <rect key="frame" x="50" y="202.5" width="275" height="235"/>
+                                <rect key="frame" x="50" y="202.5" width="275" height="231"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="username" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HLe-iE-niL">
                                         <rect key="frame" x="99.5" y="0.0" width="76" height="20.5"/>
@@ -58,15 +58,13 @@
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits" secureTextEntry="YES" textContentType="password"/>
                                     </textField>
-                                    <button opaque="NO" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HBD-cQ-BlM">
-                                        <rect key="frame" x="107.5" y="201" width="60" height="34"/>
+                                    <button opaque="NO" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HBD-cQ-BlM">
+                                        <rect key="frame" x="107.5" y="201" width="60" height="30"/>
                                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="60" id="BjC-f8-Fjj"/>
                                         </constraints>
-                                        <state key="normal" title="Login">
-                                            <color key="titleColor" red="0.0" green="0.20185304849999999" blue="0.41848429570000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        </state>
+                                        <state key="normal" title="Login"/>
                                     </button>
                                 </subviews>
                             </stackView>
@@ -82,6 +80,11 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <connections>
+                        <outlet property="loginButton" destination="HBD-cQ-BlM" id="5wi-oD-j5r"/>
+                        <outlet property="passwordTextField" destination="wd4-bI-1i7" id="84q-bb-n2y"/>
+                        <outlet property="usernameTextField" destination="YhV-ha-QRV" id="ZI3-ZW-jqi"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
