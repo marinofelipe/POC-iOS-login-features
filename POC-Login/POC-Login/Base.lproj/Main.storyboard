@@ -18,7 +18,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="9Pe-5n-i28">
-                                <rect key="frame" x="50" y="202.5" width="275" height="161"/>
+                                <rect key="frame" x="50" y="202.5" width="275" height="181"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="username" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HLe-iE-niL">
                                         <rect key="frame" x="99.5" y="0.0" width="76" height="20.5"/>
@@ -27,28 +27,30 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="YhV-ha-QRV">
-                                        <rect key="frame" x="37.5" y="40.5" width="200" height="30"/>
+                                        <rect key="frame" x="12.5" y="40.5" width="250" height="40"/>
                                         <constraints>
-                                            <constraint firstAttribute="width" constant="200" id="9yb-D2-sIa"/>
+                                            <constraint firstAttribute="width" constant="250" id="9yb-D2-sIa"/>
+                                            <constraint firstAttribute="height" constant="40" id="DsR-p8-rKD"/>
                                         </constraints>
                                         <nil key="textColor"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                        <textInputTraits key="textInputTraits"/>
+                                        <textInputTraits key="textInputTraits" textContentType="username"/>
                                     </textField>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="password" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="d90-2N-OjQ">
-                                        <rect key="frame" x="100.5" y="90.5" width="74" height="20.5"/>
+                                        <rect key="frame" x="100.5" y="100.5" width="74" height="20.5"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="wd4-bI-1i7">
-                                        <rect key="frame" x="37.5" y="131" width="200" height="30"/>
+                                        <rect key="frame" x="12.5" y="141" width="250" height="40"/>
                                         <constraints>
-                                            <constraint firstAttribute="width" constant="200" id="LTo-eu-Gwb"/>
+                                            <constraint firstAttribute="width" constant="250" id="LTo-eu-Gwb"/>
+                                            <constraint firstAttribute="height" constant="40" id="zqm-tG-wC3"/>
                                         </constraints>
                                         <nil key="textColor"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                        <textInputTraits key="textInputTraits"/>
+                                        <textInputTraits key="textInputTraits" secureTextEntry="YES" textContentType="password"/>
                                     </textField>
                                 </subviews>
                             </stackView>
