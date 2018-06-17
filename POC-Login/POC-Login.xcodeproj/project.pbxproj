@@ -1,0 +1,589 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D5DB49EF20D6221F00F27804 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5DB49EE20D6221F00F27804 /* AppDelegate.swift */; };
+		D5DB49F120D6221F00F27804 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5DB49F020D6221F00F27804 /* ViewController.swift */; };
+		D5DB49F420D6221F00F27804 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D5DB49F220D6221F00F27804 /* Main.storyboard */; };
+		D5DB49F620D6222100F27804 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D5DB49F520D6222100F27804 /* Assets.xcassets */; };
+		D5DB49F920D6222100F27804 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D5DB49F720D6222100F27804 /* LaunchScreen.storyboard */; };
+		D5DB4A0420D6222200F27804 /* POC_LoginTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5DB4A0320D6222200F27804 /* POC_LoginTests.swift */; };
+		D5DB4A0F20D6222200F27804 /* POC_LoginUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5DB4A0E20D6222200F27804 /* POC_LoginUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D5DB4A0020D6222200F27804 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D5DB49E320D6221F00F27804 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D5DB49EA20D6221F00F27804;
+			remoteInfo = "POC-Login";
+		};
+		D5DB4A0B20D6222200F27804 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D5DB49E320D6221F00F27804 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D5DB49EA20D6221F00F27804;
+			remoteInfo = "POC-Login";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D5DB49EB20D6221F00F27804 /* POC-Login.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "POC-Login.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5DB49EE20D6221F00F27804 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D5DB49F020D6221F00F27804 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D5DB49F320D6221F00F27804 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D5DB49F520D6222100F27804 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D5DB49F820D6222100F27804 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D5DB49FA20D6222200F27804 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D5DB49FF20D6222200F27804 /* POC-LoginTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "POC-LoginTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5DB4A0320D6222200F27804 /* POC_LoginTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = POC_LoginTests.swift; sourceTree = "<group>"; };
+		D5DB4A0520D6222200F27804 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D5DB4A0A20D6222200F27804 /* POC-LoginUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "POC-LoginUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5DB4A0E20D6222200F27804 /* POC_LoginUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = POC_LoginUITests.swift; sourceTree = "<group>"; };
+		D5DB4A1020D6222200F27804 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D5DB49E820D6221F00F27804 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5DB49FC20D6222200F27804 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5DB4A0720D6222200F27804 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D5DB49E220D6221F00F27804 = {
+			isa = PBXGroup;
+			children = (
+				D5DB49ED20D6221F00F27804 /* POC-Login */,
+				D5DB4A0220D6222200F27804 /* POC-LoginTests */,
+				D5DB4A0D20D6222200F27804 /* POC-LoginUITests */,
+				D5DB49EC20D6221F00F27804 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D5DB49EC20D6221F00F27804 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D5DB49EB20D6221F00F27804 /* POC-Login.app */,
+				D5DB49FF20D6222200F27804 /* POC-LoginTests.xctest */,
+				D5DB4A0A20D6222200F27804 /* POC-LoginUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D5DB49ED20D6221F00F27804 /* POC-Login */ = {
+			isa = PBXGroup;
+			children = (
+				D5DB49EE20D6221F00F27804 /* AppDelegate.swift */,
+				D5DB49F020D6221F00F27804 /* ViewController.swift */,
+				D5DB49F220D6221F00F27804 /* Main.storyboard */,
+				D5DB49F520D6222100F27804 /* Assets.xcassets */,
+				D5DB49F720D6222100F27804 /* LaunchScreen.storyboard */,
+				D5DB49FA20D6222200F27804 /* Info.plist */,
+			);
+			path = "POC-Login";
+			sourceTree = "<group>";
+		};
+		D5DB4A0220D6222200F27804 /* POC-LoginTests */ = {
+			isa = PBXGroup;
+			children = (
+				D5DB4A0320D6222200F27804 /* POC_LoginTests.swift */,
+				D5DB4A0520D6222200F27804 /* Info.plist */,
+			);
+			path = "POC-LoginTests";
+			sourceTree = "<group>";
+		};
+		D5DB4A0D20D6222200F27804 /* POC-LoginUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D5DB4A0E20D6222200F27804 /* POC_LoginUITests.swift */,
+				D5DB4A1020D6222200F27804 /* Info.plist */,
+			);
+			path = "POC-LoginUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D5DB49EA20D6221F00F27804 /* POC-Login */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D5DB4A1320D6222200F27804 /* Build configuration list for PBXNativeTarget "POC-Login" */;
+			buildPhases = (
+				D5DB49E720D6221F00F27804 /* Sources */,
+				D5DB49E820D6221F00F27804 /* Frameworks */,
+				D5DB49E920D6221F00F27804 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "POC-Login";
+			productName = "POC-Login";
+			productReference = D5DB49EB20D6221F00F27804 /* POC-Login.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D5DB49FE20D6222200F27804 /* POC-LoginTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D5DB4A1620D6222200F27804 /* Build configuration list for PBXNativeTarget "POC-LoginTests" */;
+			buildPhases = (
+				D5DB49FB20D6222200F27804 /* Sources */,
+				D5DB49FC20D6222200F27804 /* Frameworks */,
+				D5DB49FD20D6222200F27804 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D5DB4A0120D6222200F27804 /* PBXTargetDependency */,
+			);
+			name = "POC-LoginTests";
+			productName = "POC-LoginTests";
+			productReference = D5DB49FF20D6222200F27804 /* POC-LoginTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D5DB4A0920D6222200F27804 /* POC-LoginUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D5DB4A1920D6222200F27804 /* Build configuration list for PBXNativeTarget "POC-LoginUITests" */;
+			buildPhases = (
+				D5DB4A0620D6222200F27804 /* Sources */,
+				D5DB4A0720D6222200F27804 /* Frameworks */,
+				D5DB4A0820D6222200F27804 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D5DB4A0C20D6222200F27804 /* PBXTargetDependency */,
+			);
+			name = "POC-LoginUITests";
+			productName = "POC-LoginUITests";
+			productReference = D5DB4A0A20D6222200F27804 /* POC-LoginUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D5DB49E320D6221F00F27804 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = "Felipe Marino";
+				TargetAttributes = {
+					D5DB49EA20D6221F00F27804 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					D5DB49FE20D6222200F27804 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = D5DB49EA20D6221F00F27804;
+					};
+					D5DB4A0920D6222200F27804 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = D5DB49EA20D6221F00F27804;
+					};
+				};
+			};
+			buildConfigurationList = D5DB49E620D6221F00F27804 /* Build configuration list for PBXProject "POC-Login" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D5DB49E220D6221F00F27804;
+			productRefGroup = D5DB49EC20D6221F00F27804 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D5DB49EA20D6221F00F27804 /* POC-Login */,
+				D5DB49FE20D6222200F27804 /* POC-LoginTests */,
+				D5DB4A0920D6222200F27804 /* POC-LoginUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D5DB49E920D6221F00F27804 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5DB49F920D6222100F27804 /* LaunchScreen.storyboard in Resources */,
+				D5DB49F620D6222100F27804 /* Assets.xcassets in Resources */,
+				D5DB49F420D6221F00F27804 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5DB49FD20D6222200F27804 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5DB4A0820D6222200F27804 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D5DB49E720D6221F00F27804 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5DB49F120D6221F00F27804 /* ViewController.swift in Sources */,
+				D5DB49EF20D6221F00F27804 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5DB49FB20D6222200F27804 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5DB4A0420D6222200F27804 /* POC_LoginTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5DB4A0620D6222200F27804 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5DB4A0F20D6222200F27804 /* POC_LoginUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D5DB4A0120D6222200F27804 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D5DB49EA20D6221F00F27804 /* POC-Login */;
+			targetProxy = D5DB4A0020D6222200F27804 /* PBXContainerItemProxy */;
+		};
+		D5DB4A0C20D6222200F27804 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D5DB49EA20D6221F00F27804 /* POC-Login */;
+			targetProxy = D5DB4A0B20D6222200F27804 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D5DB49F220D6221F00F27804 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D5DB49F320D6221F00F27804 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D5DB49F720D6222100F27804 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D5DB49F820D6222100F27804 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D5DB4A1120D6222200F27804 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D5DB4A1220D6222200F27804 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D5DB4A1420D6222200F27804 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X9MK4PBNUW;
+				INFOPLIST_FILE = "POC-Login/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.felipemarino.POC-Login";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D5DB4A1520D6222200F27804 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X9MK4PBNUW;
+				INFOPLIST_FILE = "POC-Login/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.felipemarino.POC-Login";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D5DB4A1720D6222200F27804 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X9MK4PBNUW;
+				INFOPLIST_FILE = "POC-LoginTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.felipemarino.POC-LoginTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/POC-Login.app/POC-Login";
+			};
+			name = Debug;
+		};
+		D5DB4A1820D6222200F27804 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X9MK4PBNUW;
+				INFOPLIST_FILE = "POC-LoginTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.felipemarino.POC-LoginTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/POC-Login.app/POC-Login";
+			};
+			name = Release;
+		};
+		D5DB4A1A20D6222200F27804 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X9MK4PBNUW;
+				INFOPLIST_FILE = "POC-LoginUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.felipemarino.POC-LoginUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "POC-Login";
+			};
+			name = Debug;
+		};
+		D5DB4A1B20D6222200F27804 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X9MK4PBNUW;
+				INFOPLIST_FILE = "POC-LoginUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.felipemarino.POC-LoginUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "POC-Login";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D5DB49E620D6221F00F27804 /* Build configuration list for PBXProject "POC-Login" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5DB4A1120D6222200F27804 /* Debug */,
+				D5DB4A1220D6222200F27804 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D5DB4A1320D6222200F27804 /* Build configuration list for PBXNativeTarget "POC-Login" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5DB4A1420D6222200F27804 /* Debug */,
+				D5DB4A1520D6222200F27804 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D5DB4A1620D6222200F27804 /* Build configuration list for PBXNativeTarget "POC-LoginTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5DB4A1720D6222200F27804 /* Debug */,
+				D5DB4A1820D6222200F27804 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D5DB4A1920D6222200F27804 /* Build configuration list for PBXNativeTarget "POC-LoginUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5DB4A1A20D6222200F27804 /* Debug */,
+				D5DB4A1B20D6222200F27804 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D5DB49E320D6221F00F27804 /* Project object */;
+}
