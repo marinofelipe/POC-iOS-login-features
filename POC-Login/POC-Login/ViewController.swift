@@ -15,7 +15,7 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view, typically from a nib.
     }
 
-    // MARK: Tocuhes
+    // MARK: Touches
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
         //resign view or any subviews as first responders when touched
         self.view.endEditing(false)
