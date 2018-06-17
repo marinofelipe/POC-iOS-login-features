@@ -25,7 +25,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="9Pe-5n-i28">
-                                <rect key="frame" x="50" y="202.5" width="275" height="231"/>
+                                <rect key="frame" x="50" y="202.5" width="275" height="239"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="username" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HLe-iE-niL">
                                         <rect key="frame" x="99.5" y="0.0" width="76" height="20.5"/>
@@ -60,12 +60,14 @@
                                         <textInputTraits key="textInputTraits" secureTextEntry="YES" textContentType="password"/>
                                     </textField>
                                     <button opaque="NO" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HBD-cQ-BlM">
-                                        <rect key="frame" x="107.5" y="201" width="60" height="30"/>
-                                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <rect key="frame" x="107.5" y="201" width="60" height="38"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="60" id="BjC-f8-Fjj"/>
                                         </constraints>
-                                        <state key="normal" title="Login"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                                        <state key="normal" title="Login">
+                                            <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        </state>
                                     </button>
                                 </subviews>
                             </stackView>
