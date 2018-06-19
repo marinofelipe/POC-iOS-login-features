@@ -10,3 +10,6 @@ This poc demo is intended exlcusively for researching and implementing features 
 ### Webcredentials associated domains service
 The `apple-app-site-association` file must be in the website server. Preferred inside the root + `/.well-known/`  
 There is no way to test it without the two way link between app and site/webserver, so the qick type bar will not be helpfull until this is done.
+
+### Byometrics
+For now the POC only addresses the autofill.
