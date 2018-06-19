@@ -68,6 +68,9 @@
                                         <state key="normal" title="Login">
                                             <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                         </state>
+                                        <connections>
+                                            <segue destination="5LJ-av-Tnr" kind="show" identifier="loginSegue" id="hUx-U3-DQf"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                             </stackView>
@@ -91,6 +94,42 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+        </scene>
+        <!--Home View Controller-->
+        <scene sceneID="Nwa-yd-AIa">
+            <objects>
+                <viewController id="5LJ-av-Tnr" customClass="HomeViewController" customModule="POC_Login" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="NdK-JA-Dpk">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Mtx-Gs-NWx">
+                                <rect key="frame" x="163.5" y="597" width="48" height="30"/>
+                                <state key="normal" title="Logout"/>
+                                <connections>
+                                    <action selector="logoutWithSender:" destination="5LJ-av-Tnr" eventType="touchUpInside" id="1xu-5j-Boj"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Home" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DYk-DI-BGQ">
+                                <rect key="frame" x="162" y="165" width="51" height="23"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="Mtx-Gs-NWx" firstAttribute="centerX" secondItem="NdK-JA-Dpk" secondAttribute="centerX" id="BZ3-Fr-9ef"/>
+                            <constraint firstItem="DYk-DI-BGQ" firstAttribute="centerX" secondItem="NdK-JA-Dpk" secondAttribute="centerX" id="Hb2-UO-dlN"/>
+                            <constraint firstItem="2Oy-Pr-BSS" firstAttribute="bottom" secondItem="Mtx-Gs-NWx" secondAttribute="bottom" constant="40" id="rjX-lA-pS3"/>
+                            <constraint firstItem="DYk-DI-BGQ" firstAttribute="top" secondItem="2Oy-Pr-BSS" secondAttribute="top" constant="145" id="uUK-BB-6BW"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="2Oy-Pr-BSS"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Sru-hm-q8h" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="956" y="134"/>
         </scene>
     </scenes>
 </document>

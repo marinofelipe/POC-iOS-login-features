@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		753CB4C520D94EF200F6157C /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 753CB4C420D94EF200F6157C /* HomeViewController.swift */; };
 		D5DB49EF20D6221F00F27804 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5DB49EE20D6221F00F27804 /* AppDelegate.swift */; };
 		D5DB49F120D6221F00F27804 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5DB49F020D6221F00F27804 /* ViewController.swift */; };
 		D5DB49F420D6221F00F27804 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D5DB49F220D6221F00F27804 /* Main.storyboard */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		753CB4C420D94EF200F6157C /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		D5DB49EB20D6221F00F27804 /* POC-Login.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "POC-Login.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D5DB49EE20D6221F00F27804 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D5DB49F020D6221F00F27804 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -101,6 +103,7 @@
 				D5DB4A1C20D703A200F27804 /* POC-Login.entitlements */,
 				D5DB49EE20D6221F00F27804 /* AppDelegate.swift */,
 				D5DB49F020D6221F00F27804 /* ViewController.swift */,
+				753CB4C420D94EF200F6157C /* HomeViewController.swift */,
 				D5DB49F220D6221F00F27804 /* Main.storyboard */,
 				D5DB49F520D6222100F27804 /* Assets.xcassets */,
 				D5DB49F720D6222100F27804 /* LaunchScreen.storyboard */,
@@ -265,6 +268,7 @@
 			files = (
 				D5DB49F120D6221F00F27804 /* ViewController.swift in Sources */,
 				D5DB49EF20D6221F00F27804 /* AppDelegate.swift in Sources */,
+				753CB4C520D94EF200F6157C /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
